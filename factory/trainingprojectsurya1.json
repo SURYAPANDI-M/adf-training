@@ -1,0 +1,9 @@
+{
+	"name": "trainingprojectsurya1",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "63499811-bb36-4c95-92ed-14280ac7a769",
+		"tenantId": "2800c0a0-70e9-49be-8733-faeaa6aced99"
+	}
+}

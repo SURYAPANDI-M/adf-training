@@ -1,0 +1,25 @@
+{
+	"name": "combine_data",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_out",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "orderdetails.csv",
+				"folderPath": "order",
+				"container": "consoldated"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
